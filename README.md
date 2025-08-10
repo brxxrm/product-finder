@@ -46,7 +46,7 @@ Una aplicación Android moderna que utiliza **Machine Learning** para detectar p
 ## 📋 **Requisitos del Sistema**
 
 - **Android 7.0** (API 24) o superior
-- **Cámara** (opcional, para captura de fotos)
+- **Cámara** (obligatoria)
 - **Almacenamiento** (para acceso a galería)
 - **Internet** (para ML Kit y búsquedas)
 
