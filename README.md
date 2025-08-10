@@ -20,7 +20,6 @@ Detecta productos en imágenes usando Machine Learning y búscalos en Google al 
 
 - [Características](#--características)
 - [Tecnologías](#-tecnologías-utilizadas)
-- [Arquitectura](#-arquitectura)
 - [Requisitos](#-requisitos-del-sistema)
 - [Instalación](#-instalación-y-configuración)
 - [Uso](#-uso)
@@ -29,7 +28,6 @@ Detecta productos en imágenes usando Machine Learning y búscalos en Google al 
 - [Roadmap](#-roadmap)
 - [Contribuir](#-contribuir)
 - [Autor y Contacto](#-autor-y-contacto)
-- [Licencia](#-licencia)
 
 ---
 
@@ -76,21 +74,6 @@ Badges rápidos:
 - ![Kotlin](https://img.shields.io/badge/Kotlin-1.9.22-A97BFF?logo=kotlin&logoColor=white)
 - ![Compose](https://img.shields.io/badge/Compose-2024.02.00-4285F4?logo=android&logoColor=white)
 - ![ML Kit](https://img.shields.io/badge/ML%20Kit-17.0.7-1E88E5)
-
----
-
-## 🧩 Arquitectura
-
-```mermaid title="Flujo de la App" type="diagram"
-graph TD;
-A["Abrir App"]B["Capturar foto o elegir de galería"];
-BC["ML Kit: Image Labeling"];
-CD["Top N etiquetas #40;max 5#41; con confianza"];
-DE["ML Kit Translate EN #8594; ES"];
-EF["Mostrar resultados en UI"];
-FG["Guardar búsqueda en historial #40;max 6#41;"];
-FH["Buscar en Google #40;intents / fallbacks#41;"];
-```
 
 ---
 
@@ -208,8 +191,7 @@ Plantillas útiles:
 
 - Bryan Armando — Android Developer  
 - LinkedIn: https://www.linkedin.com/in/bryanarmando26/  
-- Portafolio / Web: agrega tu web si la tienes  
-- Email: añade un correo si quieres recibir feedback
+- Email: armando26br@gmail.com
 
 ---
 
@@ -260,31 +242,4 @@ val translator = Translation.getClient(options)
 translator.downloadModelIfNeeded()
 ```
 
----
-
-## 📝 Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta `LICENSE` para más información.
-
----
-
-## ✅ Checklist para dejarlo \\"chulo\\"
-- [ ] Añadir 3–5 screenshots en `docs/screenshots/`
-- [ ] Subir un GIF corto (\<5MB) a `docs/demo/`
-- [ ] Agregar badge de APK si publicas Releases
-- [ ] Añadir `PRIVACY.md` y `SECURITY.md`
-- [ ] Crear Issue/PR templates
-- [ ] Publicar un post en LinkedIn y X con el GIF
-- [ ] Poner ⭐ al repo y pedir feedback
-
-\-\-\-
-
-¿Otras ideas para mejorar?
-- Tabla comparativa de velocidad/precisión con distintos umbrales
-- Modo offline explicando claramente las limitaciones
-- Atajos de accesibilidad (habla a texto / lector de pantalla)
-- Tests instrumentados para el flujo principal
-- Internationalization (i18n) y strings externalizados
-- Compatibilidad con múltiples idiomas de origen (auto-detect)
-```
 
