@@ -13,24 +13,6 @@ Detecta productos en imágenes usando Machine Learning y búscalos en Google al 
 [![Last Commit](https://img.shields.io/github/last-commit/BryanGranados/product-finder)](https://github.com/BryanGranados/product-finder/commits/main)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#-contribuir)
 
----
-
-## ✨ Demo
-
-- 🎥 GIF de la app en funcionamiento
-  - Coloca un GIF en `docs/demo/product-finder-demo.gif` y actualiza el enlace:
-  - ![Demo](docs/demo/product-finder-demo.gif)
-
-- 📸 Screenshots
-  - Agrega tus capturas a `docs/screenshots/` y reemplaza las rutas:
-    - Home: ![Home](docs/screenshots/home.png)
-    - Resultados: ![Resultados](docs/screenshots/results.png)
-    - Historial: ![Historial](docs/screenshots/history.png)
-
-> Tip: para crear un GIF desde un video (`.mp4`) con ffmpeg:
-```bash
-ffmpeg -i screen-record.mp4 -vf "fps=15,scale=432:-1:flags=lanczos" -loop 0 docs/demo/product-finder-demo.gif
-```
 
 ---
 
