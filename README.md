@@ -182,8 +182,6 @@ Plantillas útiles:
   - Compartir en LinkedIn: https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2FBryanGranados%2Fproduct-finder  
   - Compartir en X/Twitter: https://twitter.com/intent/tweet?text=Probando%20Product%20Finder%20%F0%9F%93%B1%20Detecta%20productos%20con%20IA%20y%20b%C3%BAscalos%20en%20Google%20al%20instante.%20Repo%3A%20&url=https%3A%2F%2Fgithub.com%2FBryanGranados%2Fproduct-finder&hashtags=Android,JetpackCompose,MLKit,Kotlin
 
-> Consejo: añade un Release con APK firmado (`app-release.apk`) y un badge de descarga:
-> `[![Download](https://img.shields.io/badge/Download-APK-2ea44f)](https://github.com/BryanGranados/product-finder/releases)`
 
 ---
 
