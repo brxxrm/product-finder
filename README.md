@@ -90,7 +90,7 @@ Badges rápidos:
 
 ### 1) Clonar el repositorio
 ```bash
-git clone https://github.com/BryanGranados/product-finder.git
+git clone (https://github.com/brxxrm/product-finder)
 cd product-finder
 ```
 
@@ -174,7 +174,7 @@ Plantillas útiles:
 
 ## 🌟 Apoya el proyecto
 
-- Dale ⭐ al repo: https://github.com/BryanGranados/product-finder  
+- Dale ⭐ al repo: (https://github.com/brxxrm/product-finder)
 - Compártelo en tus redes:  
   - LinkedIn (autor): https://www.linkedin.com/in/bryanarmando26/  
   - Compartir en LinkedIn: https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2FBryanGranados%2Fproduct-finder  
