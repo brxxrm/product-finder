@@ -131,7 +131,6 @@ En `AndroidManifest.xml` deberías declarar (según necesidades de tu implementa
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
 ```
 
-> CameraX maneja parte de la complejidad de permisos. Asegúrate de solicitar y explicar el uso al usuario.
 
 ---
 
@@ -142,7 +141,6 @@ En `AndroidManifest.xml` deberías declarar (según necesidades de tu implementa
 - La búsqueda en Google abre el navegador con la consulta seleccionada.  
 - No se suben imágenes a servidores de terceros desde la app (a menos que agregues esa funcionalidad).
 
-Agrega un archivo `PRIVACY.md` con más detalles si planeas publicar en Play Store.
 
 ---
 
@@ -206,7 +204,7 @@ Plantillas útiles:
 
 ---
 
-## 🧱 Cómo funciona (resumen técnico)
+## 🧱 Cómo funciona
 
 1) Captura/selección de imagen con CameraX o galería  
 2) Procesamiento con ML Kit Image Labeling  
